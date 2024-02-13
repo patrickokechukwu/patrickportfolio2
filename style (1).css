@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+#topHeader {
+    background-color: #1f2235;
+    padding: 20px 80px;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#brandLogo {
+    width: 120px;
+}
+.navItem {
+    list-style: none;
+    margin-right: 24px;
+    font-size: 18px;
+}
+
+.navItem a {
+    text-decoration: none;
+}
+
+.navItem a:hover {
+    color: #ff4a57;
+}
+
+/* home section style */
+#home {
+    background-color: #24263b;
+    padding: 80px;
+}
+
+#socialIcons {
+    justify-content: flex-start;
+}
+
+.icon {
+    margin-right: 18px;
+    text-align: center;
+    border: 2px solid #ff4a57;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 16px;
+    height: 40px;
+    width: 40px;;
+}
+
+.icon:hover {
+    background-color: #ff4a57;
+    cursor: pointer;
+}
+
+.sectionTitle {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 18px 0;
+}
+
+.sectionP {
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 44px;
+    
+}
+
+.portfolioBtn {
+    background-color: #24263b;
+    border-radius: 24px;
+    width: 180px;
+    height: 58px;
+    font-weight: 800;
+
+}
+
+#playBtn {
+    background-color: #ff4a57;
+    padding: 14px 48px;
+    font-size: 18px;
+    border-radius: 24px;
+    height: 58px;
+    border: none;
+    cursor: pointer;
+}
+
+#services {
+    background-color: #1f2235;
+    padding: 80px;
+}
+
+
+.card {
+    height: 300px;
+    width: 300px;
+    background-color: #24263b;
+    border-radius: 14px;
+    border: 2px solid #ff4a57;
+    margin-bottom: 28px;
+}
